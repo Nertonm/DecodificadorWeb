@@ -1,0 +1,59 @@
+/* Definindo a classe para o botão */
+.button-class {
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+background: #000000;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+width: 280px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: middle;
+
+/* White */
+color: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+body{
+
+/* Decodificador - 1 Desktop */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+/* Light blue/light-blue-100 */
+background: #F3F5FC;
+
+}
+
+
