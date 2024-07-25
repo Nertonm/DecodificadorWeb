@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br"> 
-    <!-- Linguagem -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +10,30 @@
     </head>
     <body>
         <main>
-            <h1>Decodificador Web</h1>
-            <div class="container">
-                <textarea id="input" name="text" placeholder="Digite aqui"></textarea>
-                <p class="info">Apenas letras minúsculas e sem acento.</p>
-                <div class="button-container">
-                    <button class="button-class1" onclick="alert('Button clicked!')">Criptografar</a>  
-                    <button class="button-class2">Descriptografar</a>  
+            <div class="container1">
+                <div class="container2">
+                    <h1>Decodificador Web</h1>
+                    <p class="instruction-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <textarea id="input" name="input" placeholder="Digite aqui"></textarea>
+                    <p class="info">Apenas letras minúsculas e sem acento.</p>
+                    <div class="button-container">
+                        <button class="button-class1"id="b1">Criptografar</a>  
+                        <button class="button-class2"id="b2">Descriptografar</a>  
+                    </div>
+     
+                </div> 
+                <div class="container2">
+                    <div class="output" id="output"> 
+                        <h2 class="primeira__mensagem">Esperando mensagens</h2>
+                        <textarea name="text" id="output" placeholder=""></textarea>
+                        <button class="button-class2">Copiar</a>  
+                    </div>
                 </div>
-                <p class="instruction-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
- 
-            </div>
-            
-            <div>
-           </div>
+            </div> 
+                <footer>
+                    <p>Desenvolvido por Thiago Nerton</p>
+                </footer>    
         </main>
-        <footer>
-            <p>Desenvolvido por Thiago Nerton</p>
-        </footer>
+        <script src="./main.js"></script>
     </body>
 </html>
