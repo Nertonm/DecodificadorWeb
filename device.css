@@ -1,0 +1,25 @@
+@media (max-width: 800px){
+    main {
+        height: 250px;
+        flex-direction: column;
+    }
+
+    textarea {
+        height: 250px;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .button-container {
+        max-width: 350px;
+    }
+
+@media (max-width: 430px) {
+    .button-container {
+        width: 100%;
+    }
+
+
