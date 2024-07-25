@@ -8,18 +8,25 @@
         <title>Decodificador Web</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="device.css">
-
     </head>
     <body>
         <main>
             <h1>Decodificador Web</h1>
             <div class="container">
-                <textarea name="text" placeholder="Digite aqui"></textarea>
+                <textarea id="input" name="text" placeholder="Digite aqui"></textarea>
                 <div class="button-container">
+                    <p class="info">Apenas letras minúsculas e sem acento.</p>
                     <button class="button-class1" onclick="alert('Button clicked!')">Criptografar</a>  
                     <button class="button-class2">Descriptografar</a>  
                 </div>
             </div>
+            
+            <div>
+                <p class="instruction-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
         </main>
+        <footer>
+            <p>Desenvolvido por Thiago Nerton</p>
+        </footer>
     </body>
 </html>
