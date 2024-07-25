@@ -1,59 +1,73 @@
-/* Definindo a classe para o botão */
-.button-class {
-/* Button */
+* {
+margin: 0;
+padding: 0;
+}
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 24px;
-gap: 8px;
+.button-container {
+  /* Usa layout flexível para organizar os itens filhos horizontalmente */
+  display: flex;
+  /* Espaçamento entre os botões, se necessário */
+  gap: 4px; /* Ajuste conforme necessário */
+}
 
-width: 328px;
-height: 67px;
+.button-class1 {
+    box-sizing: border-box;
+    color: #FFFFFF;
 
-background: #000000;
-border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+    padding: 24px;
+    gap: 16px;
+    width: 328px;
+    height: 67px;
 
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 
-/* Button */
+.button-class2{
+    box-sizing: border-box;
 
-width: 280px;
-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: middle;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
 
-/* White */
-color: #FFFFFF;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 24px;
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 1;
-
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 body{
-
-/* Decodificador - 1 Desktop */
-
-position: relative;
-width: 1440px;
-height: 1024px;
-
-/* Light blue/light-blue-100 */
-background: #F3F5FC;
-
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
