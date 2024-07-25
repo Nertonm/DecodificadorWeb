@@ -3,11 +3,20 @@ margin: 0;
 padding: 0;
 }
 
+input {
+    font-size: 2rem;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
 .button-container {
-  /* Usa layout flexível para organizar os itens filhos horizontalmente */
   display: flex;
-  /* Espaçamento entre os botões, se necessário */
-  gap: 4px; /* Ajuste conforme necessário */
+  gap: 4px; 
 }
 
 .button-class1 {
@@ -17,6 +26,9 @@ padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-size: 1rem;
+    font-weight: 400;
 
     padding: 24px;
     gap: 16px;
@@ -38,6 +50,9 @@ padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-size: 1rem;
+    font-weight: 400;
 
     padding: 24px;
     gap: 8px;
