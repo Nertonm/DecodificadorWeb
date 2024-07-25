@@ -1,22 +1,36 @@
 * {
-margin: 0;
-padding: 0;
+margin: 0 auto;
+padding: 0 auto;
 }
 
-input {
+textarea {
     font-size: 2rem;
     width: 100%;
     padding: 10px;
     border: none;
-    font-size: 24px;
+    height: 250px;
+    display: flex;
+    font-size: 16px;
     font-weight: 400;
     outline: none;
+    gap: 4px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px; 
+}
 .button-container {
-  display: flex;
-  gap: 4px; 
+    display: flex;
+    gap: 4px;
+    margin-top: 220px;
+    position: absolute;
+    width: 100%;
+align-items: center;
+
 }
 
 .button-class1 {
