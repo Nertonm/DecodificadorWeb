@@ -1,5 +1,6 @@
 let b1 = document.getElementById("b1");
 let b2 = document.getElementById("b2");
+let b3 = document.getElementById("b3");
 let input = document.getElementById("input");
 let output = document.getElementById("output");
 
@@ -28,7 +29,7 @@ b1.addEventListener("click", () => {
     let criptografado = criptografar(inputText);
     output.innerHTML =`<p class="mensagem">${criptografado}</p> <button class="btn-copiar">copiar</button>`;
     alert("Texto criptografado com sucesso!");
-    const btCopiar = output.querySelector(".btn-copiar");
+    const btCopiar = output.querySelector(".bt3");
     btCopiar.addEventListener("click", () => {
     navigator.clipboard.writeText(criptografado);
     alert("Texto copiado para a área de transferência!");

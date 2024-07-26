@@ -123,3 +123,10 @@ footer {
     font-size: 1rem;
     margin-bottom: 10px;
 }
+output{
+  white-space: nowrap;
+  overflow-x: scroll;
+  width: 100%;
+
+
+}
