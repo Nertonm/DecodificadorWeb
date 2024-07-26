@@ -89,7 +89,6 @@ textarea:focus {
 }
 
 body{
-    height: 100vh;
     width: 100%;
     position: relative;
     background: #f5f5f5;
@@ -106,7 +105,6 @@ main {
     text-align: center;
     width: 90%;
     max-width: 600px;
-    padding: 20px;
 }
 
 h1 {
@@ -131,6 +129,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+
     textarea {
         height: 200px;
         font-size: 1rem;
