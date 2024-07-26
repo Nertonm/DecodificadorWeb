@@ -24,11 +24,19 @@ function criptografar(text, subs = {
     return text.replace(/./g, char => subs[char] || char);
 }
 
+function checker(text) {
+    return /[A-ZÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÃÕÇáéíóúàèìòùâêîôûãõç]/.test(text);
+}
+
 b1.addEventListener("click", () => {
     let inputText = input.value;
-    let criptografado = criptografar(inputText);
-    output.value = criptografado;
-    alert("Texto criptografado com sucesso!");
+    if (checker(inputText)) {
+        alert("O texto não pode conter letras maiúsculas ou caracteres acentuados.");
+    } else {
+        let criptografado = criptografar(inputText);
+        output.value = criptografado;
+        alert("Texto criptografado com sucesso!");
+    }
 });
 
 b2.addEventListener("click", () => {
