@@ -14,7 +14,7 @@ O projeto é composto por três arquivos principais:
 - **Criptografar**: Substitui as vogais do texto de entrada por sequências de caracteres específicas.
 - **Descriptografar**: Reverte a criptografia, substituindo as sequências de caracteres pelas vogais originais.
 - **Copiar**: Copia o texto resultante para a área de transferência.
-- 
+  
 ## Tecnologias Utilizadas
 
 Este projeto utiliza as seguintes tecnologias e ferramentas:
