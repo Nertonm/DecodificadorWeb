@@ -1,6 +1,5 @@
 # DecodificadorWeb
-
-Este é um projeto simples de um decodificador web que permite criptografar e descriptografar textos usando substituições de caracteres específicas. A interface web permite a entrada de texto, a execução das funções de criptografia e descriptografia, e a cópia do texto resultante para a área de transferência.
+Este é um projeto do challenge do programa ONE, da Oracle em parceria com a Alura. Trata-se de um decodificador web que permite criptografar e descriptografar textos usando substituições de caracteres específicas. A interface web permite a entrada de texto, a execução das funções de criptografia e descriptografia, e a cópia do texto resultante para a área de transferência.
 
 ## Estrutura do Projeto
 
