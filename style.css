@@ -18,19 +18,13 @@ textarea {
     gap: 4px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+
 textarea:focus {
     border-color: #000;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-.container1 {
-    display: flex;
-    margin: 0 auto;
-    gap: 20px;
-    width: 90%;
-}
-
-.container2 {
+.container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -43,6 +37,7 @@ textarea:focus {
     max-width: 600px;
     padding: 20px;
 }
+
 .button-container {
     display: flex;
     gap: 10px;
@@ -67,6 +62,10 @@ textarea:focus {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.button-class1:hover, .button-class2:hover {
+    transform: scale(1.03);
 }
 
 .button-class1 {
@@ -114,6 +113,7 @@ h1 {
     margin-bottom: 20px;
     color: #333;
 
+
 }
 
 footer {
@@ -131,4 +131,51 @@ footer {
     white-space: nowrap;
     overflow-x: auto;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    textarea {
+        height: 200px;
+        font-size: 1rem;
+    }
+
+    .container1 {
+        flex-direction: row;
+    }
+    .container2 {
+        flex-direction: column;
+    }
+
+    .button-container {
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .button-class1, .button-class2 {
+        width: 90%;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .button-container {
+        flex-direction: column;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+    .container2 {
+        flex-direction: column;
+    }
+
+    textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .info-text, .instruction-text {
+        font-size: 14px;
+    }
 }
