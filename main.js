@@ -27,19 +27,22 @@ function criptografar(text, subs = {
 b1.addEventListener("click", () => {
     let inputText = input.value;
     let criptografado = criptografar(inputText);
-    output.innerHTML =`<p class="mensagem">${criptografado}</p> <button class="btn-copiar">copiar</button>`;
+    output.value = criptografado;
     alert("Texto criptografado com sucesso!");
-    const btCopiar = output.querySelector(".bt3");
-    btCopiar.addEventListener("click", () => {
-    navigator.clipboard.writeText(criptografado);
-    alert("Texto copiado para a área de transferência!");
-  });
 });
 
 b2.addEventListener("click", () => {
     let inputText = input.value;
     let descriptografado = descriptografar(inputText);
-    output.innerHTML =
-    `<p class="mensagem">${descriptografado}</p>`;
+    output.value = descriptografado;
     alert("Texto descriptografado com sucesso!");
+});
+
+b3.addEventListener("click", () => {
+  let outputText = output.value;
+  navigator.clipboard.writeText(outputText).then(() => {
+    alert("Texto copiado para a área de transferência!");
+  }).catch(err => {
+    console.error('Erro ao copiar texto: ', err);
+  });
 });

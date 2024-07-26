@@ -23,6 +23,8 @@
         width: 90%;
         padding: 16px;
     }
+}
+
 @media (max-width: 425px) {
     .button-container {
         flex-direction: column;
@@ -37,4 +39,14 @@
         flex-direction: column;
         width: 100%;
     }
+    textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .info-text, .instruction-text {
+        font-size: 14px;
+    }
+
+}
 
