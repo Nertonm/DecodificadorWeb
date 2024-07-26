@@ -14,7 +14,31 @@ O projeto é composto por três arquivos principais:
 - **Criptografar**: Substitui as vogais do texto de entrada por sequências de caracteres específicas.
 - **Descriptografar**: Reverte a criptografia, substituindo as sequências de caracteres pelas vogais originais.
 - **Copiar**: Copia o texto resultante para a área de transferência.
+- 
+## Tecnologias Utilizadas
 
+Este projeto utiliza as seguintes tecnologias e ferramentas:
+
+### HTML
+
+- **HTML5**: Estrutura a página da web, definindo a semântica e a organização dos elementos.
+
+### CSS
+
+- **CSS3**: Utilizado para estilizar a interface do usuário, proporcionando uma experiência visual atraente e responsiva.
+    - **Flexbox**: Para criar layouts flexíveis e alinhamentos eficientes.
+    - **Media Queries**: Para garantir que a aplicação seja responsiva e funcione bem em diferentes tamanhos de tela.
+
+### JavaScript
+
+- **JavaScript (ES6+)**: Implementa a lógica de criptografia e descriptografia, bem como interações com a interface.
+    - **Event Listeners**: Para responder a ações do usuário, como clicar nos botões.
+    - **Clipboard API**: Para permitir que o usuário copie o texto criptografado/descriptografado para a área de transferência.
+
+### Ferramentas e APIs
+
+- **Clipboard API**: Permite copiar o texto para a área de transferência de forma eficiente e moderna.
+  
 ## Uso
 
 ### Interface de Usuário
