@@ -46,3 +46,4 @@ b3.addEventListener("click", () => {
     console.error('Erro ao copiar texto: ', err);
   });
 });
+

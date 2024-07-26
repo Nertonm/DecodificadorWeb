@@ -74,14 +74,14 @@ textarea:focus {
     border: 2px solid #FFFFFF;
 }
 
-.button-class1:hover {
-    background: #333;
-}
-
 .button-class2 {
     color: #000000;
     background: #FFFFFF;
     border: 1px solid #000000;
+}
+
+.button-class1:hover {
+    background: #333;
 }
 
 .button-class2:hover {
@@ -112,14 +112,11 @@ main {
 h1 {
     margin-bottom: 20px;
     color: #333;
-
-
 }
 
 footer {
     margin-top: 20px;
 }
-
 
 .info-text, .instruction-text {
     font-size: 16px;
@@ -139,10 +136,7 @@ footer {
         font-size: 1rem;
     }
 
-    .container1 {
-        flex-direction: row;
-    }
-    .container2 {
+    .container {
         flex-direction: column;
     }
 
@@ -163,10 +157,7 @@ footer {
         flex-direction: column;
     }
 
-    .container1 {
-        flex-direction: column;
-    }
-    .container2 {
+    .container{
         flex-direction: column;
     }
 
@@ -175,7 +166,4 @@ footer {
         padding: 8px;
     }
 
-    .info-text, .instruction-text {
-        font-size: 14px;
-    }
 }
